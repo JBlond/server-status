@@ -3,6 +3,7 @@ server-status
 
 `mod_lua` version of the Apache httpd's mod_status using dynamic charts
 ![screenshot](https://raw.githubusercontent.com/Humbedooh/server-status/master/teaser.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJBlond%2Fserver-status.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJBlond%2Fserver-status?ref=badge_shield)
 
 ## What does it do? ##
 This script is an extended version of the known mod_status statistics page for httpd.
@@ -39,3 +40,7 @@ There are a few options inside the Lua script that can be set to `true` or `fals
 - `redact_ips`: Whether or not to replace the last few bits of every IP with 'x.x'
 - `show_modules`: Whether to show the list of loaded modules or not
 - `show_threads`: Whether to show thread details or not.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJBlond%2Fserver-status.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJBlond%2Fserver-status?ref=badge_large)
